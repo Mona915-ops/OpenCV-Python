@@ -1,7 +1,7 @@
 import cv2
 
 # Load an image
-image = cv2.imread(r'C:\Users\mohan\OneDrive\Pictures\mona.jpg')
+image = cv2.imread(r'C:\Users\mohan\OneDrive\Pictures\img.jpg')
 
 # Convert to grayscale
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
